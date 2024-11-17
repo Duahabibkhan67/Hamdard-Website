@@ -9,61 +9,63 @@ export default function Footer(){
  return(
   <div>
   
-   <section className="sm:grid  grid-cols-4 bg-green-700 mt-24">
+   <section className="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 bg-green-700 mt-24 gap-8 p-8">
     <div>
   
-<h1 className="sm:text-3xl sm:mt-11 mx-9 text-black "><b className="text-white">Hamdard</b><b> <br />Intermediate <br /> College</b></h1>
-   <p className="sm:text-1xl text-white sm:mx-7 sm:my-7">We believe it has the power to do small things.</p>
-   <p className="text-1xl text-white sm:mx-7 my-7">Interested in working with us?</p>
-   <p className="text-1xl text-white my-2 sm:mx-7">Info@example.com</p>
-<p className="flex mx-9 hover:scale-110  gap-6"><FaFacebookF /><FaXTwitter /><FaWhatsapp /> <FaInstagram /></p>
+<h1 className="text-2xl sm:text-3xl font-bold  mx-4 text-white "><b className="text-white">Hamdard</b><b> <br />Intermediate <br /> College</b></h1>
+   <p className="text-sm sm:text-base mt-4 mx-4 text-white ">We believe it has the power to do small things.</p>
+   <p className="text-sm sm:text-base mt-4 mx-4 text-white ">Interested in working with us?</p>
+   <p className="text-sm sm:text-base mt-4 mx-4 text-white ">Info@example.com</p>
+<div className="flex mx-6 mt-4 gap-4 hover:scale-110  text-white text-lg sm:text-2xl "><FaFacebookF /><FaXTwitter /><FaWhatsapp /> <FaInstagram /></div>
    </div>
    <div>
-    <h1 className="text-3xl  sm:mx-7 mt-10"><b>Explore</b></h1>
+    <h1 className="text-2xl sm:text-3xl font-bold text-white mx-4 mt-4 lg:mt-0  "><b>Explore</b></h1>
 
- <ul className="text-1xl text-white sm:mx-7 ">
-  <li className="my-3">
+ <ul className="text-sm sm:text-base mt-4 mx-4 space-y-3 text-white ">
+  <li >
   The Founder
   </li>
-  <li className="my-2">
+  <li >
   The Chancellor
   </li>
-  <li className="my-2">
+  <li >
   The Vice Chancellor
   </li>
-  <li className="my-2">
+  <li >
   Principal
   </li>
-  <li className="my-2">
+  <li >
   Vice Principal
   </li>
  </ul>
    </div>
    <div>
-    <h1 className="text-3xl mx-7 mt-10"><b>Links</b></h1>
+    <h1 className="text-2xl sm:text-3xl font-bold text-white mx-4 mt-4 lg:mt-0"><b>Links</b></h1>
 
- <ul className="text-1xl text-white sm:mx-7 ">
-  <li className="my-2">
+ <ul className="text-sm sm:text-base mt-4 mx-4 space-y-3 text-white ">
+  <li >
   Apply
   </li>
-  <li className="my-2">
+  <li >
 Admission
   </li>
-  <li className="my-2">
+  <li >
 Registration
  </li>
-  <li className="my-2">
+  <li >
 Fee Structure
   </li>
 
  </ul>
    </div>
-   <div>
-    <h1 className="text-3xl  sm:mx-7 mt-10"><b>Address</b></h1>
-    <p className="text-1xl text-white sm:mx-7 my-3 ">North Nazimabad</p>
-    <h1 className="text-3xl  sm:mx-7 mt-10"><b>Hours </b></h1>
-    <p className="text-1xl text-white sm:mx-7 ">8:00 Am to 2:30pm</p>
-    <p className="text-1xl text-white sm:mx-7 ">All days</p>
+
+
+   <div >
+    <h1 className="text-2xl sm:text-3xl font-bold text-white mx-4 mt-4 lg:mt-0  "><b>Address</b></h1>
+    <p className="text-sm sm:text-base mt-4 mx-4 text-white  ">North Nazimabad</p>
+    <h1 className="text-2xl sm:text-3xl font-bold text-white mx-4 mt-8"><b>Hours </b></h1>
+    <p className="text-sm sm:text-base mt-4 mx-4 text-white">8:00 Am to 2:30pm</p>
+    <p className="text-sm sm:text-base  mx-4 text-white ">All days</p>
    </div>
    </section>
   </div>

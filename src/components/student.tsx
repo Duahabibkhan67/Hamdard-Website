@@ -1,30 +1,32 @@
 import Image from "next/image"
 export default function Student(){
  return(
-  <div>
-   <section className="sm:grid sm:grid-cols-3 bg-slate-200 m-16 ">
-    <div className="sm:mx-3 my-6">
-     <h1 className="text-green-700 sm:text-6xl mx-3"><b>1000+</b></h1>
-     <p className="sm:mx-3">Student Enrolled</p>
+  <div className="bg-white">
+   <section className="grid grid-cols-1 sm:grid-cols-3 gap-6 p-6 sm:p-12 m-4 sm:m-16 rounded-lg bg-slate-200 ">
+    <div className="text-center sm:text-left">
+     <h1 className="text-green-700 text-4xl sm:text-6xl font-bold">
+      <b>1000+</b>
+      </h1>
+     <p className="text-lg sm:text-xl mt-2">Student Enrolled</p>
 
     </div>
-    <div className="sm:mx-3 my-6">
-     <h1 className="text-green-700 sm:text-6xl sm:mx-3"><b>25+</b></h1>
-     <p className="sm:mx-3">Qualified Teachers</p>
+    <div className="text-center sm:text-left">
+     <h1 className="text-green-700 text-4xl sm:text-6xl font-bold"><b>25+</b></h1>
+     <p className="text-lg sm:text-xl mt-2">Qualified Teachers</p>
 
     </div>
-    <div className="sm:mx-3 my-6">
-     <h1 className="text-green-700 sm:text-6xl mx-3"><b>25+</b></h1>
-     <p className="sm:mx-3">Comfortable Classes</p>
+    <div className="text-center sm:text-left">
+     <h1 className="text-green-700 text-4xl sm:text-6xl font-bold"><b>25+</b></h1>
+     <p className="text-lg sm:text-xl mt-2">Comfortable Classes</p>
     </div>
    </section>
 
-<section>
-   <section className="sm:mx-11 my-11 sm:flex sm:justify-between white border border-accent rounded-2xl bg-slate-50">
-    <div className="sm:mx-4 sm:mt-20">
+<section >
+   <section className="sm:p-12 p-6 m-4 sm:m-16 border border-gray-300 bg-slate-50 rounded-lg flex flex-col lg:flex-row items-center ">
+    <div className="flex-1 sm:pr-6">
      <p  data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500" className="  sm:ml-16 my-2 mt-10  text-1xl sm:text-sm ">
+     data-aos-duration="1500" className="text-base sm:text-lg lg:text-xl text-gray-700 leading-6 lg:leading-8     ">
       Highly qualified, experienced & competent faculty. <br />
 Limited number of students in each class. <br />
 Ideal location, congenial environment & grand infrastructure. <br />
@@ -35,9 +37,9 @@ Well-stocked library. <br />
      </p>
      
     </div>
-    <div>
+    <div className="flex-1 flex justify-center mt-6 lg:mt-0">
      <Image data-aos="fade-up"
-     data-aos-duration="3000" className="sm:mr-20 sm:mt-20 mb-3" height={300} width={500} src="/card.jpg" alt="burger1"></Image>
+     data-aos-duration="3000" className="rounded-lg" height={300} width={500} src="/card.jpg" alt="burger1"></Image>
     </div>
    </section>
    </section>
