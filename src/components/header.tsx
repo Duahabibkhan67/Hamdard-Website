@@ -42,7 +42,7 @@ export default function Header(){
   
   <div className="flex-col  flex gap-4 px-6 py-4   ">
 <Link href="/"><button className="text-xl  hover:scale-110 hover:underline-offset-1"><b>Home</b></button></Link>
-<Link href="/about"><button className="text-xl    hover:scale-110 hover:underline-offset-1"><b>About</b></button></Link>
+<Link href="/about"><button className="text-xl    hover:scale-110  hover:underline"><b>About</b></button></Link>
 <Link href="/events"><button  className="text-xl hover:scale-110"><b>Events</b></button></Link>
 <Link href="/faculty"><button className="text-xl   hover:scale-110"> <b>Faculty</b></button></Link>
 

@@ -26,10 +26,10 @@ export default function About(){
                 Hakim Mohammed Said founded Hamdard University in 1991. The establishment of a university which could enliven the intellectual traditions of the educational institutions of the Golden Era of Muslim Civilization, had always been his most cherished dream. In fact, it was the central point towards which all his endeavors were directed. The founding of the University was the culmination of a long dedicated and continued effort which spanned over his whole life. Apart from being a great educational leader, Shaheed Hakim Mohammed Said was also one of the finest exponents of Eastern Medicine, who had treated millions of patients the world over by the time of his martyrdom (Shahadat) in October 1998. In the fifty years of his active career as a practitioner of Greco-Arab medicine par excellence, Shaheed Hakim Mohammed Said also achieved international fame as a scholar and researcher in medicine. In recognition of his meritorious services and scholarly achievements he was awarded Nishan-e-lmtiaz (Posthumous) by the Government of Pakistan, in 2002.
                   </p>
                 
-                <section className="sm:flex">
+                <section className="flex flex-col sm:flex-col md:flex-row lg:flex-row">
                 <div data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" className=" sm:mx-11 my-5 bg-slate-200 border border-accent h-auto w-1/2 rounded-2xl">
+     data-aos-duration="2000" className="mx-11 lg:mx-11 md:mx-11 sm:mx-11 my-5 bg-slate-200 border border-accent h-auto w-72 sm:w-96 md:w-1/2 lg:w-1/2 rounded-2xl">
                   <div className="">
                   <Image className="sm:ml-28 mt-2" height={200} width={200} src="/sadia.jpg" alt="founder"></Image>
                   <h1 className="text-green-900 sm:text-3xl sm:ml-24 "><b>Mrs. Sadia Rashid</b></h1>
@@ -41,7 +41,7 @@ export default function About(){
                 </div>
                 <div data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" className=" sm:mx-11 my-5 bg-slate-200 border border-accent h-auto w-1/2 rounded-2xl">
+     data-aos-duration="2000" className="mx-11 lg:mx-11 md:mx-11 sm:mx-11 my-5 bg-slate-200 border border-accent h-auto w-72 sm:w-96 md:w-1/2 lg:w-1/2  rounded-2xl">
                   <div >
                   <Image className="md:ml-36 mt-6 " height={200} width={200} src="/vice.jpg" alt="founder"></Image>
                   <h1 className="text-green-900 sm:text-3xl sm:ml-24 "><b>Prof. Dr. Syed Shabib Ul Hassan</b></h1>
@@ -57,7 +57,7 @@ export default function About(){
                 
                 <div className="sm:justify-center items-center sm:mx-11 my-5 bg-slate-50">
                   <div className="sm:ml-96 mt-12">
-                  <Image className="sm:ml-14 " height={200} width={200} src="/principal.jpg" alt="founder"></Image>
+                  <Image className="ml-14 " height={200} width={200} src="/principal.jpg" alt="founder"></Image>
                   <h1 className="text-green-700 sm:text-3xl font-bold "><b>Ms. Shakeela Khurram</b></h1>
                   <h1 className="sm:text-2xl text-green-700 ">Principal, Hamdard Intermediate College</h1>
                   </div>
@@ -76,7 +76,7 @@ In achieving our goals, we are fortunate to have a team of committed and expert 
 
                 <div className="sm:justify-center items-center sm:mx-11 my-5 bg-slate-50">
                   <div className="sm:ml-96 mt-12">
-                  <Image className="sm:ml-14 " height={200} width={200} src="/viceprin.jpg" alt="founder"></Image>
+                  <Image className="ml-14 " height={200} width={200} src="/viceprin.jpg" alt="founder"></Image>
                   <h1 className="text-green-700 sm:text-3xl font-bold "><b>Mr. Adnan Ahmad Khan</b></h1>
                   <h1 className="sm:text-2xl text-green-700 ">Vice Principal, Hamdard Intermediate College</h1>
                   </div>

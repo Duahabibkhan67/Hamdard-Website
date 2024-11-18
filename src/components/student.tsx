@@ -2,7 +2,7 @@ import Image from "next/image"
 export default function Student(){
  return(
   <div className="bg-white">
-   <section className="grid grid-cols-1 sm:grid-cols-3 gap-6 p-6 sm:p-12 m-4 sm:m-16 rounded-lg bg-slate-200 ">
+   <section className="grid grid-cols-1 sm:grid-cols-3 gap-6 p-6 sm:p-12 sm:m-4 m-2 md:m-4 lg:m-6   rounded-lg bg-slate-200 ">
     <div className="text-center sm:text-left">
      <h1 className="text-green-700 text-4xl sm:text-6xl font-bold">
       <b>1000+</b>
@@ -22,7 +22,7 @@ export default function Student(){
    </section>
 
 <section >
-   <section className="sm:p-12 p-6 m-4 sm:m-16 border border-gray-300 bg-slate-50 rounded-lg flex flex-col lg:flex-row items-center ">
+   <section className="sm:p-12 p-6 m-2 sm:m-4 md:m-6 lg:m-8 border border-gray-300 bg-slate-50 rounded-lg flex flex-col lg:flex-row items-center ">
     <div className="flex-1 sm:pr-6">
      <p  data-aos="fade-down"
      data-aos-easing="linear"

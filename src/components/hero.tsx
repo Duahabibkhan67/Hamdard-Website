@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Hero(){
  return(
-  <div className="bg-orange-300 flex flex-col lg:flex-row justify-between   item-center sm:h-screen p-6 lg:p-12  ">
+  <div className="bg-orange-300 mx-0 flex flex-col lg:flex-row justify-between   item-center sm:h-screen p-6 lg:p-12  ">
   <section  className="flex flex-col sm:items-center lg:items-start ">
       <h1 data-aos="fade-up"
      data-aos-duration="3000" className="text-white text-3xl   sm:text-4xl lg:text-6xl rounded text-center lg:text-left sm:mb-4    font-bold  ">

@@ -4,16 +4,18 @@ export default function Card(){
 
  return(
   <div>
-  <section className="sm:mx-11 my-11 flex flex-col sm:flex-row  justify-between white border border-accent bg-slate-200">
+  <section className="mx-2 sm:mx-3 lg:mx-11 my-11 flex flex-col sm:flex-row  justify-between white border border-accent bg-slate-200">
     <div data-aos="zoom-out-up" className="sm:mx-4 px-4  sm:mt-16 sm:w-1/2">
-     <h1  className="text-center sm:text-left text-lg sm:text-xl lg:text-2xl font-semibold  my-6 ">
-      <b >Scholarship for Outstanding Students </b> <br />
-70% discount awarded in tuition & admission fees to the outstanding students.
+     <h1  className="text-center sm:text-left text-lg sm:text-xl lg:text-2xl font-bold  my-6 ">
+   Scholarship for Outstanding Students<br />
+      <p className="text-gray-700">70% discount awarded in tuition & admission fees to the outstanding students.</p>
+
      </h1>
      <h1 
-     className="  text-center sm:text-left text-lg sm:text-xl lg:txext-2xl font-semibold my-6 ">
-      <b >Hamdard Public School Students</b> <br />
-      50% discount in tuition & admission fees for Hamdard Public School students.
+     className="  text-center sm:text-left text-lg sm:text-xl lg:txext-2xl font-bold my-6 ">
+   Hamdard Public School Students <br />
+   <p className="text-gray-700">50% discount in tuition & admission fees for Hamdard Public School students.</p>
+      
      </h1>
      
     </div>
