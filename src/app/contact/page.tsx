@@ -6,7 +6,7 @@ export default function Contact(){
   <div className="bg-slate-50">
    <div className="xl:flex xl:justify-between">
     < Contactform />
-   <section className="bg-slate-200 sm:mx-8 my-11 xl:h-auto xl:w-auto">
+   <section className="bg-slate-200 mx-0 lg:mx-8 md:mx-6 my-11 sm:h-auto sm:w-auto">
     <div className="">
      <div>
       <h1 className="sm:text-3xl font-bold xl:ml-28 my-5">Address</h1>

@@ -5,6 +5,7 @@ import Hero from "@/components/hero";
 import Card from "@/components/card";
 import Student from "@/components/student";
 import Admission from "@/components/admission";
+import Testimon from "@/components/testimonial";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -25,6 +26,7 @@ export default function Home(){
   <div>
 < Hero />
 < Admission />
+< Testimon />
 < Card />
 < Student />
   </div>

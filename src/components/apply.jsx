@@ -20,8 +20,9 @@ function ContactForm() {
       Name
       </label>
       <input
-     className="bg-slate-950 mx-4 sm:h-8 sm:w-60 text-white my-5"
+     className="bg-slate-900 text-white mx-4 sm:h-8 sm:w-60  my-5"
      placeholder="Your name"
+     accept='text'
         id="text"
         type="text" 
         name="text"
@@ -32,15 +33,19 @@ function ContactForm() {
         field="text"
         errors={state.errors}
       />
- 
+ <br />
      
            {/* number */}
       <label  className="text-white mx-4 my-6 sm:h-20   font-serif" htmlFor="number">
        Phone Number
       </label>
       <input
+      pattern="\d{3}-\d{3}-\d{4}"
        placeholder="Your Number"
- className="bg-slate-950 mx-4 sm:h-8 sm:w-52  my-5 text-white"
+ className="bg-slate-900 mx-2 text-white sm:h-8 sm:w-44  my-5 "
+ min={11}
+ max={13}
+ accept='13'
         id="number"
         type="number" 
         name="number"
@@ -51,12 +56,16 @@ function ContactForm() {
         field="number"
         errors={state.errors}
       />
+      <br />
       <label  className="text-white mx-4 my-6 sm:h-20   font-serif" htmlFor="number">
-        Matric Number
+        Matric Marks
       </label>
       <input
        placeholder="Your Matric Number"
- className="bg-slate-950 mx-4 sm:h-8 sm:w-52 text-white  my-5"
+ className="bg-slate-900 text-white mx-2 sm:h-8 sm:w-44   my-5"
+ accept='6'
+min={3}
+max={5}
         id="number"
         type="number" 
         name="number"
@@ -67,29 +76,30 @@ function ContactForm() {
         field="number"
         errors={state.errors}
       />
+      <br />
 
        <label  className="text-white mx-4 my-6 sm:h-20   font-serif" htmlFor="field">
       Which Field
       </label>
-      <input
-       placeholder="Your Field"
- className="bg-slate-950 mx-4 sm:h-8 sm:w-52 my-5 text-white"
-        id="text"
-        type="text" 
-        name="text"
-        required
-      />
+      <select id="field" name="field"  className="bg-slate-900  text-white  sm:h-8 sm:w-52  my-5 " >
+    
+    <option value="Computer Science">Computer Science</option>
+    <option value="Pre-Engineering">Pre-Engineering</option>
+    <option value="Pre-Medical">Pre-Medical</option>
+    <option value="Commerce">Commerce</option>
+</select>
       <ValidationError 
         prefix="text" 
         field="text"
         errors={state.errors}
       />
+      <br />
             <label  className="text-white mx-4 my-6 sm:h-20  font-serif" htmlFor="email">
         Email Address
       </label>
       <input
        placeholder="Your E-mail"
- className="bg-slate-950 mx-4 sm:h-8 sm:w-52  my-5 text-white"
+ className="bg-slate-900  text-white  sm:h-8 sm:w-52  my-5 "
         id="email"
         type="email" 
         name="email"
@@ -100,7 +110,8 @@ function ContactForm() {
         field="email"
         errors={state.errors}
       />
-      <button className="  text-xl  text-white border border-accent h-9 w-20  bg-gray-500 hover:bg-lime-800 hover:scale-105 my-6  mx-11   p-2 " type="submit" disabled={state.submitting}>
+      <br />
+      <button className="  text-xl  text-white shadow-md  h-9 w-20  bg-black hover:bg-lime-900 hover:scale-105 my-6  mx-11   p-2 " type="submit" disabled={state.submitting}>
         Submit
       </button>
     </form>

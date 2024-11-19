@@ -4,11 +4,11 @@ export default function Admission(){
  return(
   <div>
    <section className="  mt-24 flex flex-col sm:flex-row mx-2 sm:mx-4 lg:mx-8  justify-between  bg-green-700">
-   <div className="flex justify-center sm:w-1/2">
+   <div className="flex justify-center w-80 lg:w-1/2">
      <Image data-aos="fade-up"
-     data-aos-duration="3000"  className="sm:ml-6  sm:mt-2 " height={500} width={500} src="/hero2.jpg" alt="burger1"></Image>
+     data-aos-duration="3000"  className="ml-0 lg:m-6 sm:mt-2 " height={500} width={500} src="/hero2.jpg" alt="burger1"></Image>
     </div>
-    <div className="mx-4 sm:mt-20 text-center sm:text-left sm:w-1/2">
+    <div className="mx-2 sm:mt-20 text-center sm:text-left sm:w-1/2">
      <h1 data-aos="fade-up"
      data-aos-duration="3000" className="text-3xl sm:text-4xl lg:text-5xl font-bold  my-4  text-white"><b>Admission Open For XI</b></h1>
      <h1 data-aos="fade-up"

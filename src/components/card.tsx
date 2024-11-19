@@ -4,7 +4,7 @@ export default function Card(){
 
  return(
   <div>
-  <section className="mx-2 sm:mx-3 lg:mx-11 my-11 flex flex-col sm:flex-row  justify-between white border border-accent bg-slate-200">
+  <section className="mx-0 sm:mx-3 lg:mx-11 my-11 flex flex-col sm:flex-row  justify-between white border border-accent bg-slate-200">
     <div data-aos="zoom-out-up" className="sm:mx-4 px-4  sm:mt-16 sm:w-1/2">
      <h1  className="text-center sm:text-left text-lg sm:text-xl lg:text-2xl font-bold  my-6 ">
    Scholarship for Outstanding Students<br />
@@ -42,7 +42,7 @@ export default function Card(){
      <Image data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"
-     className="sm:mr-20 sm:mt-20 mb-3 rounded-2xl " height={300} width={500} src="/stud.jpg" alt="burger1"></Image>
+     className="mr-4 lg:mr-20 sm:mt-20 mb-3 rounded-2xl " height={300} width={500} src="/stud.jpg" alt="burger1"></Image>
     </div>
    </section>
   </div>

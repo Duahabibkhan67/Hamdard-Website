@@ -8,7 +8,7 @@ function ContactForm() {
       return (
        <div>
 
-       <p className='bg-slate-200  h-52 w-72 p-6 text-2xl mx-16 my-20 font-semibold'>Thanks for Contact Us! <br /> 🙂 </p></div>
+       <p className='bg-slate-200  h-52 w-44 lg:w-72 md:w-72 p-6 text-2xl mx-16 my-20 font-semibold'>Thanks for Contact Us! <br /> 🙂 </p></div>
       )
       
   }
@@ -27,7 +27,7 @@ function ContactForm() {
       Name
       </label>
       <input
-      className="bg-slate-200 mx-4 xl:h-8 xl:w-72  my-5"
+      className="bg-slate-200 mx-0 sm:mx-4 lg:mx-4 h-8 w-44 lg:w-72 md:w-52   my-5"
         id="text"
         type="text" 
         name="text"
@@ -37,11 +37,12 @@ function ContactForm() {
         field="email"
         errors={state.errors}
       />
+      <br />
       <label htmlFor="email">
         Email Address
       </label>
       <input
-      className="bg-slate-200 mx-4 xl:h-8 xl:w-72  my-5"
+      className="bg-slate-200 mx-0 sm:mx-2 lg:mx-2  h-8 w-44 lg:w-72 md:w-52  my-4"
         id="email"
         type="email" 
         name="email"
@@ -51,11 +52,12 @@ function ContactForm() {
         field="email"
         errors={state.errors}
       />
+      <br />
             <label htmlFor="message">
     Message
       </label>
       <textarea
-       className="bg-slate-200   mx-4 xl:w-1/2 "
+       className="bg-slate-200   mx-0 sm:mx-4 w-1/2 "
         id="message"
         rows={6}
         name="message"
@@ -65,7 +67,8 @@ function ContactForm() {
         field="message"
         errors={state.errors}
       />
-      <button className="sm:text-2xl text-white sm:ml-56 my-9 border border-accent bg-blue-950 xl:h-12 xl:w-60 rounded-2xl hover:bg-stone-600" type="submit" disabled={state.submitting}>
+      <br />
+      <button className="text-xl sm:text-2xl lg:text-2xl  text-white ml-5 sm:ml-56 lg:ml-56  my-9 border border-accent bg-blue-950 h-12 w-60 rounded-2xl hover:bg-stone-600" type="submit" disabled={state.submitting}>
         Submit
       </button>
     </form>

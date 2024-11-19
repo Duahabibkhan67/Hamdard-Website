@@ -7,7 +7,7 @@ export default function Apply(){
    
  
  <div className="sm:flex justify-between">
-  <section className="bg-slate-900 sm:w-96 border border-accent sm:mx-11 my-11">
+  <section className="bg-slate-500 sm:w-96 shadow-md sm:mx-11 my-11">
 
 < ContactForm />
 
