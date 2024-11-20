@@ -8,7 +8,7 @@ export default function Testimon(){
     <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  ">
 
 
-    <div className="text-center flex-col bg-white  lg:mx-4 my-6 h-auto w-80">
+    <div className="text-center flex-col bg-white mx-2  lg:mx-4 my-6 h-auto w-80">
 
    <Image className="ml-32" height={100 } width={100} src="/star.png" alt="star"></Image>
    <p className="text-xl  text-gray-600 my-4 ">
@@ -21,7 +21,7 @@ export default function Testimon(){
  </div>
 
 
- <div className="text-center flex-col  bg-white mx-0  lg:mx-2 my-6 h-auto w-80">
+ <div className="text-center flex-col  bg-white  mx-2  lg:mx-2 my-6 h-auto w-80">
 
 <Image className="ml-32" height={100 } width={100} src="/star.png" alt="star"></Image>
 <p className="text-xl text-gray-600 my-4 "
@@ -33,7 +33,7 @@ My son has benefited greatly from the tutoring center and academic advising at A
 <h2 className="text-bold mx-2 text-1xl"><b>Hafiz Naeem</b></h2>
 </div>
 </div>
-<div className="text-center flex-col bg-white mx-2 lg:mx-4 my-6 h-auto w-80">
+<div className="text-center flex-col bg-white  lg:mx-4 mx-2  my-6 h-auto w-80">
 
 <Image className="ml-32" height={100 } width={100} src="/star.png" alt="star"></Image>
 <p className="text-xl  text-gray-600 my-4 ">
