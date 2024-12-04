@@ -33,7 +33,7 @@ export default function Card(){
      data-aos-duration="3000" className="text-center sm:text-left text-lg sm:text-xl lg:text-2xl font-semibold   my-6 text-white">
       We PROVIDE A BEST EDUCATION IN KARACHI <br />
       GET ENROLLED NOW  <br />
-      <Link href="/bookatable"><button className="text-lg sm:text-xl py-2 px-6 sm:py-3 sm:px-8  rounded-lg bg-green-700 text-white sm:h-14 sm:w-40 hover:scale-110 hover:bg-lime-600"><b className="my-1 mx-2">Apply</b></button></Link>
+      <Link href="/apply"><button className="text-lg sm:text-xl py-2 px-6 sm:py-2 sm:px-8  rounded-lg bg-green-700 text-white sm:h-14 sm:w-40 hover:scale-110 hover:bg-lime-600"><b className="my-1 mx-2">Apply</b></button></Link>
      </h1>
     </div>
 

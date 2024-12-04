@@ -8,7 +8,7 @@ function ContactForm() {
       return (
        <div>
 
-       <p className='bg-slate-200  h-52 w-44 lg:w-72 md:w-72 p-6 text-2xl mx-16 my-20 font-semibold'>Thanks for Contact Us! <br /> 🙂 </p></div>
+       <p className='bg-slate-200  h-52 w-44 lg:w-72 md:w-72 p-6 text-2xl mx-16 my-20 font-semibold'>Thanks for Contacting Us! <br /> 🙂 </p></div>
       )
       
   }
@@ -27,7 +27,7 @@ function ContactForm() {
       Name
       </label>
       <input
-      className="bg-slate-200 mx-0 sm:mx-4 lg:mx-4 h-8 w-44 lg:w-72 md:w-52   my-5"
+      className="bg-slate-200 mx-0 sm:mx-4 lg:ml-16 h-8 w-44 lg:w-72 md:w-52   my-5"
         id="text"
         type="text" 
         name="text"

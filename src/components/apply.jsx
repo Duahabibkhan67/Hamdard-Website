@@ -40,11 +40,9 @@ function ContactForm() {
        Phone Number
       </label>
       <input
-      pattern="\d{3}-\d{3}-\d{4}"
        placeholder="Your Number"
- className="bg-slate-900 mx-2 text-white h-8 w-40 lg:w-44   my-5 "
- min={11}
- max={13}
+ className="bg-slate-900  text-white h-8 w-40 lg:w-48   my-5 "
+
  accept='13'
         id="number"
         type="number" 
@@ -61,11 +59,10 @@ function ContactForm() {
         Matric Marks
       </label>
       <input
-       placeholder="Your Matric Number"
- className="bg-slate-900 text-white mx-2 h-8 w-44 lg:w-44    my-5"
+       placeholder="Your Matric Marks"
+ className="bg-slate-900 text-white mx-2 h-8 w-44 lg:w-48    my-5"
  accept='6'
-min={3}
-max={5}
+
         id="number"
         type="number" 
         name="number"
@@ -99,7 +96,7 @@ max={5}
       </label>
       <input
        placeholder="Your E-mail"
- className="bg-slate-900  text-white  sm:h-8 sm:w-52  my-5 "
+ className="bg-slate-900  text-white  sm:h-8 sm:w-48  my-5 "
         id="email"
         type="email" 
         name="email"

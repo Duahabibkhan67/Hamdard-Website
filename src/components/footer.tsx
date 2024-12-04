@@ -64,7 +64,7 @@ Fee Structure
     <h1 className="text-2xl sm:text-3xl font-bold text-white mx-4 mt-4 lg:mt-0  "><b>Address</b></h1>
     <p className="text-sm sm:text-base mt-4 mx-4 text-white  ">North Nazimabad</p>
     <h1 className="text-2xl sm:text-3xl font-bold text-white mx-4 mt-8"><b>Hours </b></h1>
-    <p className="text-sm sm:text-base mt-4 mx-4 text-white">8:00 Am to 2:30pm</p>
+    <p className="text-sm sm:text-base mt-4 mx-4 text-white">8:00 AM to 2:30PM</p>
     <p className="text-sm sm:text-base  mx-4 text-white ">All days</p>
    </div>
    </section>

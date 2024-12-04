@@ -12,7 +12,7 @@ import {
 
 export default function Header(){
  return(
-<div className="flex justify-between items-center px-4 py-3  shadow-md">
+<div className="flex justify-between items-center px-4 py-3  shadow-md sticky">
 <section className=" flex items-center justify-between w-full  " >
 
  <div className="flex items-center gap-4 ">

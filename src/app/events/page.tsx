@@ -9,7 +9,7 @@ return(
      
      <h1 className="text-green-700 sm:text-1xl  font-serif  p-4 rounded mt-14">
     Hamdard Intermediate College Picnic was truly a memorable event.The support of our university
-    ,staff,and <br /> especially our students made it special.Every moment <br /> was filled with joy,and
+    ,staff,and especially our students made it special.Every moment  was filled with joy,and
     hopefully, <br />we will achieve the same success in future events together.
       </h1>
       
@@ -45,7 +45,7 @@ return(
        </h1>
       <div className="xl:flex justify-between">
         <Image className=" xl:mt-11 my-4 " height={300} width={300} src="/state1.jpg" alt="hero"></Image>
-        <Image className="xl:mx-3 xl:mt-11  my-4" height={300} width={300} src="/state2.jpg" alt="hero"></Image>
+        <Image className="xl:ml-24 xl:mt-11  my-4" height={300} width={300} src="/state2.jpg" alt="hero"></Image>
        
   </div>
 </div>
@@ -62,7 +62,7 @@ return(
       </h1>
       <div className="xl:flex justify-between">
         <Image className=" xl:mt-11 my-4 " height={300} width={300} src="/sport1.jpg" alt="hero"></Image>
-        <Image className="xl:mx-3 xl:mt-11  my-4" height={300} width={300} src="/sport2.jpg" alt="hero"></Image>
+        <Image className="xl:mx-3 xl:ml-24  my-4" height={300} width={300} src="/sport2.jpg" alt="hero"></Image>
         </div>     
 
 </div>
@@ -78,7 +78,7 @@ return(
       </h1>
       <div className="xl:flex justify-between">
         <Image className=" xl:mx-11 my-4 " height={200} width={200} src="/sportg1.jpg" alt="hero"></Image>
-        <Image className="xl:mx-11  my-4" height={200} width={200} src="/sportg2.jpg" alt="hero"></Image>
+        <Image className="xl:ml-24  my-4" height={200} width={200} src="/sportg2.jpg" alt="hero"></Image>
         </div>     
 
 </div>
@@ -93,7 +93,7 @@ return(
       </h1>
       <div className="xl:flex justify-between">
         <Image className=" xl:mt-16 my-4 " height={200} width={300} src="/milad1.jpg" alt="hero"></Image>
-        <Image className="xl:mx-3 xl:mt-16  my-4" height={200} width={300} src="/milad2.jpg" alt="hero"></Image>
+        <Image className="xl:ml-24 xl:mt-16  my-4" height={200} width={300} src="/milad2.jpg" alt="hero"></Image>
         </div>     
 
 </div>
@@ -109,7 +109,7 @@ return(
       </h1>
       <div className="xl:flex justify-between">
         <Image className=" xl:mt-16 my-4 " height={200} width={300} src="/kungfo.jpg" alt="hero"></Image>
-        <Image className="xl:mx-3 xl:mt-16  my-4" height={200} width={300} src="/kungfo.jpg" alt="hero"></Image>
+        <Image className="xl:ml-24 xl:mt-16  my-4" height={200} width={300} src="/kungfo.jpg" alt="hero"></Image>
         </div>     
 
 </div>
